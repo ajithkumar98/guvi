@@ -1,6 +1,6 @@
 m,n=map(int,input().split())
 mat=[[] for _ in range(m)]
-for i in range(n-1):
+for i in range(n):
     a=list(map(int,input().split()))
     if(a.count(0)>0):
         for j in range(len(a)):
@@ -8,3 +8,4 @@ for i in range(n-1):
         print()
     else:
         print(*a,end="")
+        print()
