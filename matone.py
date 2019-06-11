@@ -5,7 +5,7 @@ for i in range(n):
     if(a.count(0)>0):
         for j in range(len(a)):
             print("0",end=" ")
-        print()
+        print("\n")
     else:
         print(*a,end="")
-        print()
+        print("\n")
