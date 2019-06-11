@@ -6,6 +6,9 @@ for i in range(0,len(arr)):
         if(arr[i]+arr[j]==m):
             print("YES")
             flag=1
+            break
+    if(flag==1):
+        break
 
 if(flag==0):
     print("NO")
